@@ -89,7 +89,7 @@ app.delete('/clientes/:cedula', async (req, res) => {
     }
 });
 
-// Iniciar el servidor esto talvez no usaremos en AWS
+// Iniciar el servidor esto talvez no usaremos en AWS....
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
